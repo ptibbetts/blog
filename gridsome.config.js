@@ -34,6 +34,20 @@ module.exports = {
         }
       }
     },
+    {
+      use: '@microflash/gridsome-plugin-feed',
+      options: {
+
+        contentTypes: ['Post'],
+
+        feedOptions: {
+          title: siteName,
+          description: siteDescription
+        },
+
+        filterNodes: (node) => node.published,
+      }
+    }
   ],
 
   transformers: {

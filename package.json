@@ -12,6 +12,7 @@
     "@gridsome/remark-prismjs": "^0.2.0",
     "@gridsome/source-filesystem": "^0.6.0",
     "@gridsome/transformer-remark": "^0.3.0",
+    "@microflash/gridsome-plugin-feed": "^1.0.7",
     "commitizen": "^4.1.2",
     "cz-conventional-changelog": "^3.2.0",
     "gridsome": "^0.7.0",
