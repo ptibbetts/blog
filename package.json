@@ -1,10 +1,12 @@
 {
   "name": "blog",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
-    "explore": "gridsome explore"
+    "explore": "gridsome explore",
+    "semantic-relase": "semantic-release"
   },
   "dependencies": {
     "@gridsome/plugin-google-analytics": "^0.1.0",
@@ -17,12 +19,20 @@
     "husky": "^4.2.5"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
     "node-sass": "^4.12.0",
-    "sass-loader": "^8.0.0"
+    "sass-loader": "^8.0.0",
+    "semantic-release": "^17.1.1"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  }
+  },
+  "description": "Paul Tibbetts's blog",
+  "main": "index.js",
+  "repository": "git@github.com:ptibbetts/blog.git",
+  "author": "Paul Tibbetts <code@paultibbetts.uk>",
+  "license": "MIT"
 }

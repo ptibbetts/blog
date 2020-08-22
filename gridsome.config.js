@@ -4,9 +4,14 @@
 // Changes here requires a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
+const siteName = 'Paul Tibbetts'
+const siteDescription = 'Web Developer'
+const siteUrl = 'https://paultibbetts.uk/'
+
 module.exports = {
-  siteName: 'Gridsome Blog Starter',
-  siteDescription: 'A simple, hackable & minimalistic starter for Gridsome that uses Markdown for content.',
+  siteName,
+  siteDescription,
+  siteUrl,
 
   templates: {
     Post: '/:title',
@@ -28,7 +33,7 @@ module.exports = {
           }
         }
       }
-    }
+    },
   ],
 
   transformers: {
